@@ -15,6 +15,6 @@ $	        Matches end of line	                                  abc$	           
 {x,}	    Match 'x' amount of times or more	                    (abc){2,}	        abcabc, abcabcabc
 {x,y}	    Match between 'x' and 'y' times.	                    (a){2,4}	        aa, aaa, aaaaa
 *	        Greedy matches everything in place of the *	            ab*c	          abc, abbcc, abcdc
-+	        Matches character before + one or more times	          a+c	            ac, aac, aaac,
-?	        Matches character before ? zero or one times. non-greedy match	ab?c	  ac, abc
-\	        Escape character after backslash or create an escape sequence.	a\sc	  a c
++	        one or more times	                                      a+c	            ac, aac, aaac,
+?	        zero or one times. 	                                    ab?c	          ac, abc
+\	        Escape	                                                a\sc	          a c
